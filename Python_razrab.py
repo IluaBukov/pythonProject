@@ -1,4 +1,3 @@
-from itertools import count
 
 field  = [1,2,3,4,5,6,7,8,9]
 
@@ -12,7 +11,7 @@ def x_o_field():
 def light_i(lig):
     while True:
         where = input("куда поставим символ? " + lig +":")
-        if not (where in "1234567891"
+        if not (where in " 123456789 "
                          ""):
             print("ошибка ввода")
             continue
